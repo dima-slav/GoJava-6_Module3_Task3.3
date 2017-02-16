@@ -23,16 +23,16 @@ public class Solution {
 
         //Объекты CollegeStudent
         //----------------------------------------------------------------------------------
-        CollegeStudent CS1 = new CollegeStudent("Сергей", "Сергеев", 14);
-        CollegeStudent CS2 = new CollegeStudent("Сергеев", course);
-        CollegeStudent CS3 = new CollegeStudent("КПИ", 1, 10001);
+        CollegeStudent cs1 = new CollegeStudent("Сергей", "Сергеев", 14);
+        CollegeStudent cs2 = new CollegeStudent("Сергеев", course);
+        CollegeStudent cs3 = new CollegeStudent("КПИ", 1, 10001);
 
 
         //Объекты SpecialStudent
         //----------------------------------------------------------------------------------
-        SpecialStudent SS1 = new SpecialStudent("Максим", "Максимов", 7);
-        SpecialStudent SS2 = new SpecialStudent("Максимов", course);
-        SpecialStudent SS3 = new SpecialStudent(12345);
+        SpecialStudent ss1 = new SpecialStudent("Максим", "Максимов", 7);
+        SpecialStudent ss2 = new SpecialStudent("Максимов", course);
+        SpecialStudent ss3 = new SpecialStudent(12345);
 
     }
 }
